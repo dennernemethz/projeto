@@ -30,17 +30,24 @@ img{
 
 
 body{
-    background-image: linear-gradient(to right, var(--coor2), var(--coor3));
+    /*background-image: linear-gradient(to right, var(--coor2), var(--coor3));*/
     font-family: var(--font-padrao);
+    background-image: url("imagens-espaço/pexels-photo-4695929.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
 header{
     font-family: var(--font-padrao);
-    background-image: linear-gradient(to bottom, var(--coor4), var(--coor5));
+    /*background-image: linear-gradient(to bottom, var(--coor4), var(--coor5));*/
     color: white;
     margin: auto;  
     padding: 20px;
+    text-shadow: 2px 2px 2px white;
+
+    
 }
 
 header h1 {
