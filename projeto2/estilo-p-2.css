@@ -1,8 +1,15 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Limelight&family=Passion+One:wght@400;700;900&family=Roboto+Slab:wght@100..900&family=Rubik+Burned&family=Sixtyfour&family=Sriracha&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
+}
+
+:root{
+    --font02: "Sriracha", cursive;
 }
 
 html, body{
@@ -21,5 +28,59 @@ header > h1 {
     padding-bottom: 20px;
 }
 section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: var(--font02);
+}
+
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.478);
+    width: 300px;
+    text-shadow: 1px 1px 1px black;
     
+}
+
+section.normal{
+    background-color: rgb(113, 17, 17);
+    color: rgb(255, 255, 255);
+}
+
+
+
+section.imagem{
+    background-color: rgba(90,90,90);
+    color: white;
+    box-shadow:inset 6px 6px 13px 0px black;
+}
+
+section#img01{
+    background-image: url(imagens/natall-2.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+section#img02{
+    background-image: url(imagens/natalll-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
 }
